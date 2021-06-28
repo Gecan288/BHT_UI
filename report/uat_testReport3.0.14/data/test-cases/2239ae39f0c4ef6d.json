@@ -1,0 +1,218 @@
+{
+  "uid" : "2239ae39f0c4ef6d",
+  "name" : "验证手机登录",
+  "fullName" : "scripts.test_login.TestLogin#test_code_login",
+  "historyId" : "9a13bfe4f4f58bf48768f4f5fa8deb57",
+  "time" : {
+    "start" : 1624523830491,
+    "stop" : 1624523843977,
+    "duration" : 13486
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin",
+    "time" : {
+      "start" : 1624523742762,
+      "stop" : 1624523772921,
+      "duration" : 30159
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624523760115,
+        "stop" : 1624523761719,
+        "duration" : 1604
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1624523761720,
+        "stop" : 1624523772921,
+        "duration" : 11201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行验证码登录用例",
+      "time" : {
+        "start" : 1624523830491,
+        "stop" : 1624523843977,
+        "duration" : 13486
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "输入手机号",
+        "time" : {
+          "start" : 1624523830491,
+          "stop" : 1624523831600,
+          "duration" : 1109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "phone",
+          "value" : "'13754421350'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "获取验证码",
+        "time" : {
+          "start" : 1624523831601,
+          "stop" : 1624523832252,
+          "duration" : 651
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "获取toast",
+        "time" : {
+          "start" : 1624523832252,
+          "stop" : 1624523833967,
+          "duration" : 1715
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'13754421350'"
+      }, {
+        "name" : "code",
+        "value" : "''"
+      }, {
+        "name" : "login_toast",
+        "value" : "''"
+      }, {
+        "name" : "code_toast",
+        "value" : "'查询不到'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 3,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestLogin::0",
+    "time" : {
+      "start" : 1624523853600,
+      "stop" : 1624523853976,
+      "duration" : 376
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "story",
+    "value" : "验证码登录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "22344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "''"
+  }, {
+    "name" : "code_toast",
+    "value" : "'查询不到'"
+  }, {
+    "name" : "login_toast",
+    "value" : "''"
+  }, {
+    "name" : "phone",
+    "value" : "'13754421350'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2239ae39f0c4ef6d.json",
+  "parameterValues" : [ "''", "'查询不到'", "''", "'13754421350'" ]
+}

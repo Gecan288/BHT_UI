@@ -1,0 +1,232 @@
+{
+  "uid" : "1c7d9a0ec99f08dc",
+  "name" : "验证银行卡有效性",
+  "fullName" : "scripts.test_wallet.TestWallet#test_bank_card",
+  "historyId" : "050d8b82cd1969c81e6c66d360c42c04",
+  "time" : {
+    "start" : 1624522094498,
+    "stop" : 1624522157439,
+    "duration" : 62941
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <test_wallet.TestWallet object at 0x0000021FA8169F48>, card_number = '6228480039046662779', bank = '农业银行'\ntoast = ''\n\n    @allure.story(\"验证银行卡\")\n    @allure.title(\"验证银行卡有效性\")\n    @allure.step(\"开始执行用例\")\n    @pytest.mark.parametrize(\"card_number, bank, toast\", read_line(\"wallet.txt\", 1, 4))\n    def test_bank_card(self, card_number, bank, toast):\n        if toast:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert toast in self.wallet.page_get_error_toast()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n        else:\n            try:\n>               self.wallet.page_input_card_number(card_number)\n\nscripts\\test_wallet.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\na = (<Page.page_wallet.PageWallet object at 0x0000021FA8193588>, '6228480039046662779'), kw = {}\n__tracebackhide__ = True, params = OrderedDict([('number', \"'6228480039046662779'\")])\nargs = ['<Page.page_wallet.PageWallet object at 0x0000021FA8193588>', \"'6228480039046662779'\"]\n\n    @wraps(func)\n    def impl(*a, **kw):\n        __tracebackhide__ = True\n        params = func_parameters(func, *a, **kw)\n        args = list(map(lambda x: represent(x), a))\n        with StepContext(self.title.format(*args, **params), params):\n>           return func(*a, **kw)\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py:172: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, number = '6228480039046662779'\n\n    @allure.step(\"输入银行卡号\")\n    def page_input_card_number(self, number):\n>       self.base_input(Page.add_card_input_number, number)\n\nPage\\page_wallet.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, loc = ('css selector', '[name=\"bankCard\"]')\ntext = '6228480039046662779'\n\n    def base_input(self, loc, text):\n>       el = self.base_find_element(loc)\n\nbase\\base.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, loc = ('css selector', '[name=\"bankCard\"]')\ntimeout = 30, poll = 0.5\n\n    def base_find_element(self, loc, timeout=30, poll=0.5):\n        sleep(0.3)\n>       return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n\nbase\\base.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"26a328ed-76ac-49a8-941b-f3259b11584e\")>\nmethod = <function Base.base_find_element.<locals>.<lambda> at 0x0000021FA8019708>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_wallet.TestWallet object at 0x0000021FA8169F48>, card_number = '6228480039046662779', bank = '农业银行'\ntoast = ''\n\n    @allure.story(\"验证银行卡\")\n    @allure.title(\"验证银行卡有效性\")\n    @allure.step(\"开始执行用例\")\n    @pytest.mark.parametrize(\"card_number, bank, toast\", read_line(\"wallet.txt\", 1, 4))\n    def test_bank_card(self, card_number, bank, toast):\n        if toast:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert toast in self.wallet.page_get_error_toast()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n        else:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert bank in self.wallet.page_get_card_type()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n            finally:\n>               self.wallet.page_click_add_next()\n\nscripts\\test_wallet.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\page_wallet.py:71: in page_click_add_next\n    self.base_click(Page.add_card_next)\nbase\\base.py:18: in base_click\n    self.base_find_element(loc).click()\nbase\\base.py:11: in base_find_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"26a328ed-76ac-49a8-941b-f3259b11584e\")>\nmethod = <function Base.base_find_element.<locals>.<lambda> at 0x0000021FA8014CA8>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestWallet",
+    "time" : {
+      "start" : 1624522036296,
+      "stop" : 1624522065644,
+      "duration" : 29348
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624522053720,
+        "stop" : 1624522054608,
+        "duration" : 888
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击导航栏钱包",
+      "time" : {
+        "start" : 1624522054608,
+        "stop" : 1624522065644,
+        "duration" : 11036
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <test_wallet.TestWallet object at 0x0000021FA8169F48>, card_number = '6228480039046662779', bank = '农业银行'\ntoast = ''\n\n    @allure.story(\"验证银行卡\")\n    @allure.title(\"验证银行卡有效性\")\n    @allure.step(\"开始执行用例\")\n    @pytest.mark.parametrize(\"card_number, bank, toast\", read_line(\"wallet.txt\", 1, 4))\n    def test_bank_card(self, card_number, bank, toast):\n        if toast:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert toast in self.wallet.page_get_error_toast()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n        else:\n            try:\n>               self.wallet.page_input_card_number(card_number)\n\nscripts\\test_wallet.py:53: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\na = (<Page.page_wallet.PageWallet object at 0x0000021FA8193588>, '6228480039046662779'), kw = {}\n__tracebackhide__ = True, params = OrderedDict([('number', \"'6228480039046662779'\")])\nargs = ['<Page.page_wallet.PageWallet object at 0x0000021FA8193588>', \"'6228480039046662779'\"]\n\n    @wraps(func)\n    def impl(*a, **kw):\n        __tracebackhide__ = True\n        params = func_parameters(func, *a, **kw)\n        args = list(map(lambda x: represent(x), a))\n        with StepContext(self.title.format(*args, **params), params):\n>           return func(*a, **kw)\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py:172: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, number = '6228480039046662779'\n\n    @allure.step(\"输入银行卡号\")\n    def page_input_card_number(self, number):\n>       self.base_input(Page.add_card_input_number, number)\n\nPage\\page_wallet.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, loc = ('css selector', '[name=\"bankCard\"]')\ntext = '6228480039046662779'\n\n    def base_input(self, loc, text):\n>       el = self.base_find_element(loc)\n\nbase\\base.py:24: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <Page.page_wallet.PageWallet object at 0x0000021FA8193588>, loc = ('css selector', '[name=\"bankCard\"]')\ntimeout = 30, poll = 0.5\n\n    def base_find_element(self, loc, timeout=30, poll=0.5):\n        sleep(0.3)\n>       return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n\nbase\\base.py:11: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"26a328ed-76ac-49a8-941b-f3259b11584e\")>\nmethod = <function Base.base_find_element.<locals>.<lambda> at 0x0000021FA8019708>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_wallet.TestWallet object at 0x0000021FA8169F48>, card_number = '6228480039046662779', bank = '农业银行'\ntoast = ''\n\n    @allure.story(\"验证银行卡\")\n    @allure.title(\"验证银行卡有效性\")\n    @allure.step(\"开始执行用例\")\n    @pytest.mark.parametrize(\"card_number, bank, toast\", read_line(\"wallet.txt\", 1, 4))\n    def test_bank_card(self, card_number, bank, toast):\n        if toast:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert toast in self.wallet.page_get_error_toast()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n        else:\n            try:\n                self.wallet.page_input_card_number(card_number)\n                self.wallet.page_click_add_next()\n                assert bank in self.wallet.page_get_card_type()\n            except:\n                self.wallet.page_screenshot_and_write()\n                raise\n            finally:\n>               self.wallet.page_click_add_next()\n\nscripts\\test_wallet.py:60: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\nPage\\page_wallet.py:71: in page_click_add_next\n    self.base_click(Page.add_card_next)\nbase\\base.py:18: in base_click\n    self.base_find_element(loc).click()\nbase\\base.py:11: in base_find_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"26a328ed-76ac-49a8-941b-f3259b11584e\")>\nmethod = <function Base.base_find_element.<locals>.<lambda> at 0x0000021FA8014CA8>, message = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "开始执行用例",
+      "time" : {
+        "start" : 1624522094498,
+        "stop" : 1624522157439,
+        "duration" : 62941
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\scripts\\test_wallet.py\", line 60, in test_bank_card\n    self.wallet.page_click_add_next()\n  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\Page\\page_wallet.py\", line 71, in page_click_add_next\n    self.base_click(Page.add_card_next)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 18, in base_click\n    self.base_find_element(loc).click()\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 11, in base_find_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ {
+        "name" : "输入银行卡号",
+        "time" : {
+          "start" : 1624522094499,
+          "stop" : 1624522125196,
+          "duration" : 30697
+        },
+        "status" : "broken",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+        "statusTrace" : "  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\Page\\page_wallet.py\", line 67, in page_input_card_number\n    self.base_input(Page.add_card_input_number, number)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 24, in base_input\n    el = self.base_find_element(loc)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 11, in base_find_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "number",
+          "value" : "'6228480039046662779'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击下一步",
+        "time" : {
+          "start" : 1624522126776,
+          "stop" : 1624522157437,
+          "duration" : 30661
+        },
+        "status" : "broken",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+        "statusTrace" : "  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\allure_commons\\_allure.py\", line 172, in impl\n    return func(*a, **kw)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\Page\\page_wallet.py\", line 71, in page_click_add_next\n    self.base_click(Page.add_card_next)\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 18, in base_click\n    self.base_find_element(loc).click()\n  File \"D:\\Demo\\BHTAndroidAutoTest\\base\\base.py\", line 11, in base_find_element\n    return WebDriverWait(self.driver, timeout=timeout, poll_frequency=poll).until(lambda x: x.find_element(*loc))\n  File \"d:\\tools\\python3.7.4\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "159641803b6642f1",
+        "name" : "失败原因见截图:",
+        "source" : "159641803b6642f1.png",
+        "type" : "image/png",
+        "size" : 191004
+      } ],
+      "parameters" : [ {
+        "name" : "card_number",
+        "value" : "'6228480039046662779'"
+      }, {
+        "name" : "bank",
+        "value" : "'农业银行'"
+      }, {
+        "name" : "toast",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestWallet::0",
+    "time" : {
+      "start" : 1624522221938,
+      "stop" : 1624522247868,
+      "duration" : 25930
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "退出登录",
+      "time" : {
+        "start" : 1624522221938,
+        "stop" : 1624522247540,
+        "duration" : 25602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "验证银行卡"
+  }, {
+    "name" : "feature",
+    "value" : "钱包模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_wallet"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWallet"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "31724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_wallet"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "bank",
+    "value" : "'农业银行'"
+  }, {
+    "name" : "card_number",
+    "value" : "'6228480039046662779'"
+  }, {
+    "name" : "toast",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "1c7d9a0ec99f08dc.json",
+  "parameterValues" : [ "'农业银行'", "'6228480039046662779'", "''" ]
+}

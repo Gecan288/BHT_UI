@@ -1,0 +1,347 @@
+{
+  "uid" : "38c558b520d2dfc7",
+  "name" : "验证注册提示",
+  "fullName" : "scripts.test_register.TestRegister#test_register",
+  "historyId" : "a2de063da07830f4b5bfdf9c9af40b2e",
+  "time" : {
+    "start" : 1624521754903,
+    "stop" : 1624521879546,
+    "duration" : 124643
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRegister",
+    "time" : {
+      "start" : 1624521724616,
+      "stop" : 1624521754903,
+      "duration" : 30287
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624521741884,
+        "stop" : 1624521743095,
+        "duration" : 1211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1624521743095,
+        "stop" : 1624521754197,
+        "duration" : 11102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击用户注册",
+      "time" : {
+        "start" : 1624521754197,
+        "stop" : 1624521754903,
+        "duration" : 706
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行注册用例",
+      "time" : {
+        "start" : 1624521754903,
+        "stop" : 1624521879546,
+        "duration" : 124643
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "输入手机号",
+        "time" : {
+          "start" : 1624521754904,
+          "stop" : 1624521755935,
+          "duration" : 1031
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "phone_number",
+          "value" : "'13439200061'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "输入密码",
+        "time" : {
+          "start" : 1624521755935,
+          "stop" : 1624521756965,
+          "duration" : 1030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "'123456'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击注册",
+        "time" : {
+          "start" : 1624521756965,
+          "stop" : 1624521757603,
+          "duration" : 638
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取toast",
+        "time" : {
+          "start" : 1624521757603,
+          "stop" : 1624521758435,
+          "duration" : 832
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "进入商城协议",
+        "time" : {
+          "start" : 1624521758436,
+          "stop" : 1624521759136,
+          "duration" : 700
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "阅读并同意协议",
+        "time" : {
+          "start" : 1624521759136,
+          "stop" : 1624521798802,
+          "duration" : 39666
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "进入隐私协议",
+        "time" : {
+          "start" : 1624521798802,
+          "stop" : 1624521799464,
+          "duration" : 662
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "阅读并同意协议",
+        "time" : {
+          "start" : 1624521799464,
+          "stop" : 1624521839151,
+          "duration" : 39687
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "进入视频综合协议",
+        "time" : {
+          "start" : 1624521839152,
+          "stop" : 1624521839875,
+          "duration" : 723
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "阅读并同意协议",
+        "time" : {
+          "start" : 1624521839875,
+          "stop" : 1624521879546,
+          "duration" : 39671
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "'13439200061'"
+      }, {
+        "name" : "password",
+        "value" : "'123456'"
+      }, {
+        "name" : "code",
+        "value" : "'请阅读并同意协议'"
+      }, {
+        "name" : "except_toast",
+        "value" : "''"
+      }, {
+        "name" : "toast",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestRegister::0",
+    "time" : {
+      "start" : 1624521935048,
+      "stop" : 1624521935370,
+      "duration" : 322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户注册"
+  }, {
+    "name" : "feature",
+    "value" : "注册模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "31724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'请阅读并同意协议'"
+  }, {
+    "name" : "except_toast",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "'123456'"
+  }, {
+    "name" : "phone",
+    "value" : "'13439200061'"
+  }, {
+    "name" : "toast",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38c558b520d2dfc7.json",
+  "parameterValues" : [ "'请阅读并同意协议'", "''", "'123456'", "'13439200061'", "''" ]
+}

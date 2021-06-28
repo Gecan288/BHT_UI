@@ -1,0 +1,239 @@
+{
+  "uid" : "c5b7690fb5050ab0",
+  "name" : "跳转协议",
+  "fullName" : "scripts.test_video.TestVideo#test_video_agreement",
+  "historyId" : "a0c80c7337f8d3a58fe1cf17decf9f03",
+  "time" : {
+    "start" : 1624524155735,
+    "stop" : 1624524159759,
+    "duration" : 4024
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestVideo",
+    "time" : {
+      "start" : 1624524117543,
+      "stop" : 1624524147027,
+      "duration" : 29484
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624524134763,
+        "stop" : 1624524135965,
+        "duration" : 1202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1624524135965,
+        "stop" : 1624524147027,
+        "duration" : 11062
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行用例",
+      "time" : {
+        "start" : 1624524155736,
+        "stop" : 1624524159759,
+        "duration" : 4023
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "返回上一页",
+        "time" : {
+          "start" : 1624524155736,
+          "stop" : 1624524156055,
+          "duration" : 319
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击综合视频",
+        "time" : {
+          "start" : 1624524156055,
+          "stop" : 1624524156681,
+          "duration" : 626
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "跳过认证",
+        "time" : {
+          "start" : 1624524156681,
+          "stop" : 1624524157302,
+          "duration" : 621
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取页面title",
+        "time" : {
+          "start" : 1624524157302,
+          "stop" : 1624524159759,
+          "duration" : 2457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'15704912750'"
+      }, {
+        "name" : "password",
+        "value" : "'qwer1234'"
+      }, {
+        "name" : "page_title",
+        "value" : "'视频综合服务平台用户使用协议'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestVideo::0",
+    "time" : {
+      "start" : 1624524159761,
+      "stop" : 1624524166924,
+      "duration" : 7163
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "退出登录",
+      "time" : {
+        "start" : 1624524159761,
+        "stop" : 1624524166607,
+        "duration" : 6846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "综合视频模块"
+  }, {
+    "name" : "story",
+    "value" : "验证服务协议"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_video"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVideo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "22344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_video"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "page_title",
+    "value" : "'视频综合服务平台用户使用协议'"
+  }, {
+    "name" : "password",
+    "value" : "'qwer1234'"
+  }, {
+    "name" : "username",
+    "value" : "'15704912750'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c5b7690fb5050ab0.json",
+  "parameterValues" : [ "'视频综合服务平台用户使用协议'", "'qwer1234'", "'15704912750'" ]
+}

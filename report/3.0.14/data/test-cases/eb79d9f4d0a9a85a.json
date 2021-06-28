@@ -1,0 +1,221 @@
+{
+  "uid" : "eb79d9f4d0a9a85a",
+  "name" : "验证首页提示",
+  "fullName" : "scripts.test_home.TestHome#test_not_login",
+  "historyId" : "833855f3a4fe7db49b6e429941b3ebf7",
+  "time" : {
+    "start" : 1624521574492,
+    "stop" : 1624521582619,
+    "duration" : 8127
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestHome",
+    "time" : {
+      "start" : 1624521544554,
+      "stop" : 1624521574491,
+      "duration" : 29937
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624521562074,
+        "stop" : 1624521574491,
+        "duration" : 12417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行用例",
+      "time" : {
+        "start" : 1624521574492,
+        "stop" : 1624521582619,
+        "duration" : 8127
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击首页员工认证",
+        "time" : {
+          "start" : 1624521574492,
+          "stop" : 1624521575219,
+          "duration" : 727
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取toast",
+        "time" : {
+          "start" : 1624521575219,
+          "stop" : 1624521575625,
+          "duration" : 406
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击首页组织机构",
+        "time" : {
+          "start" : 1624521578640,
+          "stop" : 1624521579227,
+          "duration" : 587
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取toast",
+        "time" : {
+          "start" : 1624521579227,
+          "stop" : 1624521579617,
+          "duration" : 390
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "''"
+      }, {
+        "name" : "password",
+        "value" : "''"
+      }, {
+        "name" : "home_toast",
+        "value" : "'请先登录'"
+      }, {
+        "name" : "page_title",
+        "value" : "''"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "e4ae4ff25242bccc",
+      "name" : "log",
+      "source" : "e4ae4ff25242bccc.txt",
+      "type" : "text/plain",
+      "size" : 384
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestHome::0",
+    "time" : {
+      "start" : 1624521614205,
+      "stop" : 1624521614513,
+      "duration" : 308
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "用户未登录"
+  }, {
+    "name" : "feature",
+    "value" : "首页模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_home"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHome"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "31724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_home"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "home_toast",
+    "value" : "'请先登录'"
+  }, {
+    "name" : "page_title",
+    "value" : "''"
+  }, {
+    "name" : "password",
+    "value" : "''"
+  }, {
+    "name" : "username",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "eb79d9f4d0a9a85a.json",
+  "parameterValues" : [ "'请先登录'", "''", "''", "''" ]
+}

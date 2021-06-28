@@ -1,0 +1,296 @@
+{
+  "uid" : "3c5b80d1c07ad4a6",
+  "name" : "验证密码规则",
+  "fullName" : "scripts.test_change_pwd.TestChangePdw#test_forget_pwd",
+  "historyId" : "80fcba4f67022ec409f244e96efe05ca",
+  "time" : {
+    "start" : 1624523648118,
+    "stop" : 1624523651317,
+    "duration" : 3199
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestChangePdw",
+    "time" : {
+      "start" : 1624523474257,
+      "stop" : 1624523510727,
+      "duration" : 36470
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624523491635,
+        "stop" : 1624523492852,
+        "duration" : 1217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1624523492853,
+        "stop" : 1624523503853,
+        "duration" : 11000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "登录账号",
+      "time" : {
+        "start" : 1624523503853,
+        "stop" : 1624523506993,
+        "duration" : 3140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击设置",
+      "time" : {
+        "start" : 1624523509006,
+        "stop" : 1624523509626,
+        "duration" : 620
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击修改登录密码",
+      "time" : {
+        "start" : 1624523509626,
+        "stop" : 1624523510165,
+        "duration" : 539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择记得",
+      "time" : {
+        "start" : 1624523510165,
+        "stop" : 1624523510727,
+        "duration" : 562
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行忘记密码用例",
+      "time" : {
+        "start" : 1624523648118,
+        "stop" : 1624523651317,
+        "duration" : 3199
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "输入验证码",
+        "time" : {
+          "start" : 1624523648118,
+          "stop" : 1624523648864,
+          "duration" : 746
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "code",
+          "value" : "'12345'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "输入密码",
+        "time" : {
+          "start" : 1624523648864,
+          "stop" : 1624523649658,
+          "duration" : 794
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "'1234a'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1624523649658,
+          "stop" : 1624523650287,
+          "duration" : 629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取toast",
+        "time" : {
+          "start" : 1624523650287,
+          "stop" : 1624523651317,
+          "duration" : 1030
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "phone",
+        "value" : "''"
+      }, {
+        "name" : "code",
+        "value" : "'12345'"
+      }, {
+        "name" : "password",
+        "value" : "'1234a'"
+      }, {
+        "name" : "expect_toast",
+        "value" : "'长度为6至15位的密码'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestChangePdw::0",
+    "time" : {
+      "start" : 1624523673428,
+      "stop" : 1624523673761,
+      "duration" : 333
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "忘记密码"
+  }, {
+    "name" : "feature",
+    "value" : "修改密码模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_change_pwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestChangePdw"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "22344-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_change_pwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "code",
+    "value" : "'12345'"
+  }, {
+    "name" : "expect_toast",
+    "value" : "'长度为6至15位的密码'"
+  }, {
+    "name" : "password",
+    "value" : "'1234a'"
+  }, {
+    "name" : "phone",
+    "value" : "''"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3c5b80d1c07ad4a6.json",
+  "parameterValues" : [ "'12345'", "'长度为6至15位的密码'", "'1234a'", "''" ]
+}

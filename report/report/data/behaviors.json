@@ -1,0 +1,1105 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "修改密码模块",
+    "children" : [ {
+      "name" : "使用原密码",
+      "children" : [ {
+        "name" : "验证密码规则",
+        "uid" : "d68052013f16e5e4",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523510728,
+          "stop" : 1624523514125,
+          "duration" : 3397
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入原密码'", "''", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "40bce86a85c3e803",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523514129,
+          "stop" : 1624523517649,
+          "duration" : 3520
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入确认密码'", "'qwer1234'", "'1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "cb3a471c5dd30aa",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523517653,
+          "stop" : 1624523521435,
+          "duration" : 3782
+        },
+        "flaky" : false,
+        "parameters" : [ "'qwer1234'", "'原密码错误'", "'qwer1234'", "'1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "928faefc365f1612",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523521438,
+          "stop" : 1624523525210,
+          "duration" : 3772
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456'", "'请输入至少包含数字、字母、符号两种及以上'", "'123456'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "1f99ca3bd3e8d7bf",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523525214,
+          "stop" : 1624523528992,
+          "duration" : 3778
+        },
+        "flaky" : false,
+        "parameters" : [ "'qwerty'", "'请输入至少包含数字、字母、符号两种及以上'", "'qwerty'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "a7150f5eb757b60f",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523528996,
+          "stop" : 1624523532743,
+          "duration" : 3747
+        },
+        "flaky" : false,
+        "parameters" : [ "'!@#$%&'", "'请输入至少包含数字、字母、符号两种及以上'", "'!@#$%*'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "5c507e6076e95fcb",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523532748,
+          "stop" : 1624523536421,
+          "duration" : 3673
+        },
+        "flaky" : false,
+        "parameters" : [ "'1234$'", "'长度为6至15位的密码'", "'1234$'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "451f181f00931ffb",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523536424,
+          "stop" : 1624523540048,
+          "duration" : 3624
+        },
+        "flaky" : false,
+        "parameters" : [ "'1234q'", "'长度为6至15位的密码'", "'1234q'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "5f1425144a70be70",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523540052,
+          "stop" : 1624523543794,
+          "duration" : 3742
+        },
+        "flaky" : false,
+        "parameters" : [ "'qwer$'", "'长度为6至15位的密码'", "'qwer$'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "3058eca135dcdfd7",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523543798,
+          "stop" : 1624523548108,
+          "duration" : 4310
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456789012345$'", "'长度为6至15位的密码'", "'123456789012345$'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "64d18f1aea487e4f",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523548111,
+          "stop" : 1624523552361,
+          "duration" : 4250
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456789012345a'", "'长度为6至15位的密码'", "'123456789012345a'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "5d653a5d202121bd",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523552364,
+          "stop" : 1624523556506,
+          "duration" : 4142
+        },
+        "flaky" : false,
+        "parameters" : [ "'abcdefghijklmno$'", "'长度为6至15位的密码'", "'abcdefghijklmno$'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "675196c7f0882485",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523556510,
+          "stop" : 1624523560400,
+          "duration" : 3890
+        },
+        "flaky" : false,
+        "parameters" : [ "'qwer1235'", "'密码不一致'", "'qwer1234'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "8641cae7e2c83668",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523560404,
+          "stop" : 1624523564693,
+          "duration" : 4289
+        },
+        "flaky" : false,
+        "parameters" : [ "'qwer1234'", "'密码不能与原密码一致'", "'qwer1234'", "'qwer1234'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "1c4d65c046af73c9",
+        "parentUid" : "5c1856b70f6cdada83d657d1d9e204de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523564696,
+          "stop" : 1624523571717,
+          "duration" : 7021
+        },
+        "flaky" : false,
+        "parameters" : [ "'1234qwer'", "''", "'1234qwer'", "'qwer1234'" ]
+      } ],
+      "uid" : "5c1856b70f6cdada83d657d1d9e204de"
+    }, {
+      "name" : "忘记密码",
+      "children" : [ {
+        "name" : "验证密码规则",
+        "uid" : "8595140ce2fc747d",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523571721,
+          "stop" : 1624523575700,
+          "duration" : 3979
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'输入正确的手机号'", "''", "'3439200065'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "44969ba368f9bf1b",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523575703,
+          "stop" : 1624523579436,
+          "duration" : 3733
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'输入验证码'", "''", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "e37c9d21d99e3e50",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523579440,
+          "stop" : 1624523583583,
+          "duration" : 4143
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'123456'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "ac4a398745e3cf90",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523583587,
+          "stop" : 1624523587813,
+          "duration" : 4226
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'abcdef'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "ed4758485023cf7f",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523587817,
+          "stop" : 1624523592072,
+          "duration" : 4255
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'!@#$%*'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "a1e56cbf64e17c94",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523592075,
+          "stop" : 1624523596130,
+          "duration" : 4055
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'1234$'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "875fa61c1de9a181",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523596133,
+          "stop" : 1624523600395,
+          "duration" : 4262
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'1234a'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "ee7d6beab4b18f",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523600399,
+          "stop" : 1624523604733,
+          "duration" : 4334
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'abcd$'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "e805b3594d252d61",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523604737,
+          "stop" : 1624523609137,
+          "duration" : 4400
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'123456789012345$'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "891aa2d875e324be",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523609141,
+          "stop" : 1624523613649,
+          "duration" : 4508
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'123456789012345a'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "d0b4244d2f8bbb73",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523613653,
+          "stop" : 1624523618084,
+          "duration" : 4431
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'abcdefghijklmno$'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "1e38aa1b33018365",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523618088,
+          "stop" : 1624523622753,
+          "duration" : 4665
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'验证码不正确'", "'qwer1234'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "8a2541ccd832a45d",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523622756,
+          "stop" : 1624523632936,
+          "duration" : 10180
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'qwer1234'", "'15704912750'" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "153a68b8eca12305",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523632940,
+          "stop" : 1624523635694,
+          "duration" : 2754
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'输入验证码'", "''", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "258c135d33d5c220",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523635697,
+          "stop" : 1624523638803,
+          "duration" : 3106
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'123456'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "70cc5d3b1861fef8",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523638806,
+          "stop" : 1624523641812,
+          "duration" : 3006
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'abcdef'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "75e418c512a20fbd",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523641815,
+          "stop" : 1624523645029,
+          "duration" : 3214
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'请输入至少包含数字、字母、符号两种及以上'", "'!@#$%*'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "5f4f2e0b7358207f",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523645033,
+          "stop" : 1624523648114,
+          "duration" : 3081
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'1234$'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "3c5b80d1c07ad4a6",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523648118,
+          "stop" : 1624523651317,
+          "duration" : 3199
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'1234a'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "71cd67f77804c2d2",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523651321,
+          "stop" : 1624523654510,
+          "duration" : 3189
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'abcd$'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "182fd71637ac4a45",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523654514,
+          "stop" : 1624523657869,
+          "duration" : 3355
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'123456789012345$'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "c5a60e6ed1638506",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523657873,
+          "stop" : 1624523661250,
+          "duration" : 3377
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'123456789012345a'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "dadbd22214856519",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523661255,
+          "stop" : 1624523664736,
+          "duration" : 3481
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'长度为6至15位的密码'", "'abcdefghijklmno$'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "19d5beabf3306df6",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523664740,
+          "stop" : 1624523668275,
+          "duration" : 3535
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'验证码不正确'", "'qwer1234'", "''" ]
+      }, {
+        "name" : "验证密码规则",
+        "uid" : "d6ff4103ff251305",
+        "parentUid" : "fdc55503d44c57991b3bbec9e33eed41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523668279,
+          "stop" : 1624523673426,
+          "duration" : 5147
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'qwer1234'", "''" ]
+      } ],
+      "uid" : "fdc55503d44c57991b3bbec9e33eed41"
+    } ],
+    "uid" : "305a3b4fed53266ad019359911e11777"
+  }, {
+    "name" : "首页模块",
+    "children" : [ {
+      "name" : "用户未登录",
+      "children" : [ {
+        "name" : "验证首页提示",
+        "uid" : "ad0ffc6a61b49541",
+        "parentUid" : "3ad21fe6141fec2ec07c4439cd7725e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523703048,
+          "stop" : 1624523711078,
+          "duration" : 8030
+        },
+        "flaky" : false,
+        "parameters" : [ "'请先登录'", "''", "''", "''" ]
+      } ],
+      "uid" : "3ad21fe6141fec2ec07c4439cd7725e0"
+    }, {
+      "name" : "用户登录",
+      "children" : [ {
+        "name" : "验证员工认证跳转和钱包跳转",
+        "uid" : "683c0899771f9369",
+        "parentUid" : "bae93625cd97608ee63beb19c044749c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523711082,
+          "stop" : 1624523742432,
+          "duration" : 31350
+        },
+        "flaky" : false,
+        "parameters" : [ "'员工认证'", "'qwer1234'", "'13439200050'", "'钱包'" ]
+      } ],
+      "uid" : "bae93625cd97608ee63beb19c044749c"
+    } ],
+    "uid" : "039e8615b11c9922ed5e335ccbaaac73"
+  }, {
+    "name" : "登录模块",
+    "children" : [ {
+      "name" : "密码登录",
+      "children" : [ {
+        "name" : "验证密码登录",
+        "uid" : "ba231b20f63803ef",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523772922,
+          "stop" : 1624523776331,
+          "duration" : 3409
+        },
+        "flaky" : false,
+        "parameters" : [ "'请输入正确的手机号'", "''", "''", "'23439200065'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "bcaea366a5b61371",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523776334,
+          "stop" : 1624523779211,
+          "duration" : 2877
+        },
+        "flaky" : false,
+        "parameters" : [ "'请输入正确的手机号'", "''", "''", "'1'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "b5ccf72adb88ec5b",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523779214,
+          "stop" : 1624523782388,
+          "duration" : 3174
+        },
+        "flaky" : false,
+        "parameters" : [ "'请输入密码'", "''", "''", "'13439200061'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "5ed939365ed7b804",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523782392,
+          "stop" : 1624523786109,
+          "duration" : 3717
+        },
+        "flaky" : false,
+        "parameters" : [ "'密码错误'", "''", "'1'", "'13439200061'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "43ee6a86267dd710",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523786113,
+          "stop" : 1624523789587,
+          "duration" : 3474
+        },
+        "flaky" : false,
+        "parameters" : [ "'用户名或密码错误'", "''", "'123456'", "'13754421350'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "18b3880ff2b36031",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523789590,
+          "stop" : 1624523792931,
+          "duration" : 3341
+        },
+        "flaky" : false,
+        "parameters" : [ "'请输入图片验证码'", "''", "'abcd1234'", "'13439200066'" ]
+      }, {
+        "name" : "验证密码登录",
+        "uid" : "f30a129fb8708759",
+        "parentUid" : "c31e56f378bd28d408ed60164cbef896",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523792935,
+          "stop" : 1624523802503,
+          "duration" : 9568
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'止水'", "'qwer1234'", "'13439200061'" ]
+      } ],
+      "uid" : "c31e56f378bd28d408ed60164cbef896"
+    }, {
+      "name" : "验证码登录",
+      "children" : [ {
+        "name" : "验证手机登录",
+        "uid" : "ba0deecb9b16efd",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523802506,
+          "stop" : 1624523805452,
+          "duration" : 2946
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'输入正确的手机号'", "'1'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "14521ba6c4807820",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523805455,
+          "stop" : 1624523808617,
+          "duration" : 3162
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'请输入正确的手机号'", "'23439200065'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "87c7b0880d518095",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523808620,
+          "stop" : 1624523811615,
+          "duration" : 2995
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'请输入手机验证码'", "'13439200061'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "d552c6adac9fcf3f",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523811619,
+          "stop" : 1624523814887,
+          "duration" : 3268
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456'", "''", "'验证码不正确'", "'13439200061'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "921ab780fa1ead65",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523814891,
+          "stop" : 1624523818066,
+          "duration" : 3175
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456'", "''", "'用户名或密码错误'", "'13754421350'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "4d46dfd784c2b0cd",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523818069,
+          "stop" : 1624523830484,
+          "duration" : 12415
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'输入正确的手机号'", "''", "'23439200065'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "8330fd766a9968a6",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523830491,
+          "stop" : 1624523843977,
+          "duration" : 13486
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'查询不到'", "''", "'13754421350'" ]
+      }, {
+        "name" : "验证手机登录",
+        "uid" : "8361eef5d0cb4350",
+        "parentUid" : "9426cb4bf3d67f5a21969d55c98a0dba",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523843982,
+          "stop" : 1624523853597,
+          "duration" : 9615
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "''", "'13439200061'" ]
+      } ],
+      "uid" : "9426cb4bf3d67f5a21969d55c98a0dba"
+    } ],
+    "uid" : "6958045a481574bf02bb11ef07a7047b"
+  }, {
+    "name" : "注册模块",
+    "children" : [ {
+      "name" : "用户注册",
+      "children" : [ {
+        "name" : "验证注册提示",
+        "uid" : "4d6d61dfcf722778",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624523884577,
+          "stop" : 1624524009480,
+          "duration" : 124903
+        },
+        "flaky" : false,
+        "parameters" : [ "'请阅读并同意协议'", "''", "'123456'", "'13439200061'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "bbbe622ad2d24515",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524009484,
+          "stop" : 1624524013383,
+          "duration" : 3899
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入正确的手机号'", "''", "'23439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "12986cb0dd8184a2",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524013387,
+          "stop" : 1624524017383,
+          "duration" : 3996
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入至少包含数字、字母、符号两种及以上'", "'123456'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "f431a0cd833180a8",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524017387,
+          "stop" : 1624524021354,
+          "duration" : 3967
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入至少包含数字、字母、符号两种及以上'", "'qwerty'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "215af315f2171293",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524021357,
+          "stop" : 1624524025340,
+          "duration" : 3983
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'长度为6至15位的密码'", "'8-/!8'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "89a8ddd0a04fb277",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524025344,
+          "stop" : 1624524029331,
+          "duration" : 3987
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'长度为6至15位的密码'", "'123ab'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "637255c2aa5ac8e9",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524029334,
+          "stop" : 1624524033612,
+          "duration" : 4278
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入至少包含数字、字母、符号两种及以上'", "'123456789012345'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "db7ce8579f13c89",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524033616,
+          "stop" : 1624524037868,
+          "duration" : 4252
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入至少包含数字、字母、符号两种及以上'", "'abcdefghijklmno'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "c0366e10218004ba",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524037872,
+          "stop" : 1624524041785,
+          "duration" : 3913
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入至少包含数字、字母、符号两种及以上'", "'123456'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "6e21fa39fea62b17",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524041789,
+          "stop" : 1624524046017,
+          "duration" : 4228
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'长度为6至15位的密码'", "'1234567890qwerty'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "5cf8caf108e7f4ac",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524046022,
+          "stop" : 1624524050365,
+          "duration" : 4343
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'长度为6至15位的密码'", "'123456789012+-34'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "9cdee14e96de242a",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524050369,
+          "stop" : 1624524054421,
+          "duration" : 4052
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'请输入验证码'", "'qwer1234'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "e9b8a670e0a09aea",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524054431,
+          "stop" : 1624524059214,
+          "duration" : 4783
+        },
+        "flaky" : false,
+        "parameters" : [ "'123456'", "'验证码不正确'", "'qwer1234'", "'13439200065'", "''" ]
+      }, {
+        "name" : "验证注册提示",
+        "uid" : "38eb0a46c6f4dc5a",
+        "parentUid" : "79ab50c4a12ff4a1368d068d2fad52cf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524059218,
+          "stop" : 1624524065303,
+          "duration" : 6085
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'qwer1234'", "'13439200065'", "'用户信息已存在'" ]
+      } ],
+      "uid" : "79ab50c4a12ff4a1368d068d2fad52cf"
+    } ],
+    "uid" : "76e5fd360fd49f5d26aa0e7d1dc18c5c"
+  }, {
+    "name" : "设置模块",
+    "children" : [ {
+      "name" : "保互通简介",
+      "children" : [ {
+        "name" : "跳转保互通简介",
+        "uid" : "9c67648e07a8774a",
+        "parentUid" : "8aefea8ec930fbc1ba3c2915a888f3aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524100078,
+          "stop" : 1624524103241,
+          "duration" : 3163
+        },
+        "flaky" : false,
+        "parameters" : [ "'保互通简介'", "''" ]
+      } ],
+      "uid" : "8aefea8ec930fbc1ba3c2915a888f3aa"
+    }, {
+      "name" : "法律声明",
+      "children" : [ {
+        "name" : "跳转法律声明",
+        "uid" : "c51e47f210eb5eae",
+        "parentUid" : "67a7e96b841ac3dc57ade971db4a335b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524103243,
+          "stop" : 1624524105371,
+          "duration" : 2128
+        },
+        "flaky" : false,
+        "parameters" : [ "'法律声明'", "''" ]
+      } ],
+      "uid" : "67a7e96b841ac3dc57ade971db4a335b"
+    }, {
+      "name" : "注销协议",
+      "children" : [ {
+        "name" : "跳转账号注销",
+        "uid" : "55c5c8b6b3c23e4a",
+        "parentUid" : "71167c7785cffd043f9f2c5ed0671b23",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524105373,
+          "stop" : 1624524108790,
+          "duration" : 3417
+        },
+        "flaky" : false,
+        "parameters" : [ "'账号注销'", "''" ]
+      } ],
+      "uid" : "71167c7785cffd043f9f2c5ed0671b23"
+    }, {
+      "name" : "注销提示toast",
+      "children" : [ {
+        "name" : "验证短信验证码",
+        "uid" : "8a67a300664460e5",
+        "parentUid" : "aacab9d1dfc5acbfd79342980599aba0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524108793,
+          "stop" : 1624524111239,
+          "duration" : 2446
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'验证码为空'" ]
+      }, {
+        "name" : "验证短信验证码",
+        "uid" : "77722c62f3d30f32",
+        "parentUid" : "aacab9d1dfc5acbfd79342980599aba0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524111241,
+          "stop" : 1624524113762,
+          "duration" : 2521
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'验证码不正确'" ]
+      } ],
+      "uid" : "aacab9d1dfc5acbfd79342980599aba0"
+    } ],
+    "uid" : "61f5511a9f32f04c77d0cfb5b9fd2def"
+  }, {
+    "name" : "综合视频模块",
+    "children" : [ {
+      "name" : "验证实名认证",
+      "children" : [ {
+        "name" : "跳转实名认证",
+        "uid" : "2eb8dfdb97295681",
+        "parentUid" : "dd2377a49bd3d24f1adc79a25a8522c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524147028,
+          "stop" : 1624524155731,
+          "duration" : 8703
+        },
+        "flaky" : false,
+        "parameters" : [ "'员工认证'", "'qwer1234'", "'15704912750'" ]
+      } ],
+      "uid" : "dd2377a49bd3d24f1adc79a25a8522c7"
+    }, {
+      "name" : "验证服务协议",
+      "children" : [ {
+        "name" : "跳转协议",
+        "uid" : "c5b7690fb5050ab0",
+        "parentUid" : "9222a4b590e829dcf8a1afc62fdd22d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524155735,
+          "stop" : 1624524159759,
+          "duration" : 4024
+        },
+        "flaky" : false,
+        "parameters" : [ "'视频综合服务平台用户使用协议'", "'qwer1234'", "'15704912750'" ]
+      } ],
+      "uid" : "9222a4b590e829dcf8a1afc62fdd22d6"
+    } ],
+    "uid" : "046b43ba753a7f02db2af50c6f745a08"
+  }, {
+    "name" : "钱包模块",
+    "children" : [ {
+      "name" : "验证持卡人",
+      "children" : [ {
+        "name" : "验证持卡人姓名",
+        "uid" : "4fbf7dfc78f85249",
+        "parentUid" : "cd1303e35400de5b0a0adffad337bf10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524196107,
+          "stop" : 1624524218550,
+          "duration" : 22443
+        },
+        "flaky" : false,
+        "parameters" : [ "'矮大紧'", "'qwer1234'", "'13439200050'" ]
+      } ],
+      "uid" : "cd1303e35400de5b0a0adffad337bf10"
+    }, {
+      "name" : "验证银行卡",
+      "children" : [ {
+        "name" : "验证银行卡有效性",
+        "uid" : "1de8003884032080",
+        "parentUid" : "f3b024335f76150085fe75e55ff4dd43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524218555,
+          "stop" : 1624524220871,
+          "duration" : 2316
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "''", "'输入银行卡号'" ]
+      }, {
+        "name" : "验证银行卡有效性",
+        "uid" : "3b89420a6277a2d8",
+        "parentUid" : "f3b024335f76150085fe75e55ff4dd43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524220875,
+          "stop" : 1624524223713,
+          "duration" : 2838
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'621700002583283'", "'无法使用'" ]
+      }, {
+        "name" : "验证银行卡有效性",
+        "uid" : "4b91d43f39d306c4",
+        "parentUid" : "f3b024335f76150085fe75e55ff4dd43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524223715,
+          "stop" : 1624524227992,
+          "duration" : 4277
+        },
+        "flaky" : false,
+        "parameters" : [ "'农业银行'", "'6228480039046662779'", "''" ]
+      } ],
+      "uid" : "f3b024335f76150085fe75e55ff4dd43"
+    }, {
+      "name" : "手机验证码",
+      "children" : [ {
+        "name" : "验证手机验证码",
+        "uid" : "719c50c1a0c35b91",
+        "parentUid" : "28b0ccb090ef9ada8a68d9e4003df922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524227997,
+          "stop" : 1624524230091,
+          "duration" : 2094
+        },
+        "flaky" : false,
+        "parameters" : [ "''", "'输入验证码'", "''" ]
+      }, {
+        "name" : "验证手机验证码",
+        "uid" : "ab9982544b27186",
+        "parentUid" : "28b0ccb090ef9ada8a68d9e4003df922",
+        "status" : "passed",
+        "time" : {
+          "start" : 1624524230094,
+          "stop" : 1624524232320,
+          "duration" : 2226
+        },
+        "flaky" : false,
+        "parameters" : [ "'12345'", "'验证码错误'", "''" ]
+      } ],
+      "uid" : "28b0ccb090ef9ada8a68d9e4003df922"
+    } ],
+    "uid" : "8dc76a32c9e8dfdbfdc1158b15962949"
+  } ]
+}

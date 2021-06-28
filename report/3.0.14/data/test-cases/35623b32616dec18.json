@@ -1,0 +1,245 @@
+{
+  "uid" : "35623b32616dec18",
+  "name" : "跳转实名认证",
+  "fullName" : "scripts.test_video.TestVideo#test_video_authentication",
+  "historyId" : "d241021035318272ec37c06b976a6481",
+  "time" : {
+    "start" : 1624522016526,
+    "stop" : 1624522025248,
+    "duration" : 8722
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestVideo",
+    "time" : {
+      "start" : 1624521987155,
+      "stop" : 1624522016525,
+      "duration" : 29370
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "跳过开屏广告",
+      "time" : {
+        "start" : 1624522004566,
+        "stop" : 1624522005561,
+        "duration" : 995
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击我的",
+      "time" : {
+        "start" : 1624522005561,
+        "stop" : 1624522016525,
+        "duration" : 10964
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "开始执行用例",
+      "time" : {
+        "start" : 1624522016526,
+        "stop" : 1624522025248,
+        "duration" : 8722
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "登录账号",
+        "time" : {
+          "start" : 1624522016526,
+          "stop" : 1624522021568,
+          "duration" : 5042
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "'15704912750'"
+        }, {
+          "name" : "password",
+          "value" : "'qwer1234'"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击综合视频",
+        "time" : {
+          "start" : 1624522021568,
+          "stop" : 1624522022219,
+          "duration" : 651
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击去认证",
+        "time" : {
+          "start" : 1624522022220,
+          "stop" : 1624522022781,
+          "duration" : 561
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "获取页面title",
+        "time" : {
+          "start" : 1624522022781,
+          "stop" : 1624522025248,
+          "duration" : 2467
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "'15704912750'"
+      }, {
+        "name" : "password",
+        "value" : "'qwer1234'"
+      }, {
+        "name" : "page_title",
+        "value" : "'员工认证'"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 4
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestVideo::0",
+    "time" : {
+      "start" : 1624522029138,
+      "stop" : 1624522036294,
+      "duration" : 7156
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "退出登录",
+      "time" : {
+        "start" : 1624522029138,
+        "stop" : 1624522035969,
+        "duration" : 6831
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "综合视频模块"
+  }, {
+    "name" : "story",
+    "value" : "验证实名认证"
+  }, {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test_video"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestVideo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-NOINN6VH"
+  }, {
+    "name" : "thread",
+    "value" : "31724-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_video"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "page_title",
+    "value" : "'员工认证'"
+  }, {
+    "name" : "password",
+    "value" : "'qwer1234'"
+  }, {
+    "name" : "username",
+    "value" : "'15704912750'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35623b32616dec18.json",
+  "parameterValues" : [ "'员工认证'", "'qwer1234'", "'15704912750'" ]
+}
