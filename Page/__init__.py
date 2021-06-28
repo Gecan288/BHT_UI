@@ -47,7 +47,17 @@ me_service_tel = By.XPATH, ".//*[@id='app-root']/div/div[2]/div/div[2]/div[6]"
 me_setting = By.XPATH, ".//*[@id='app-root']/div/div[2]/div/div[2]/div[7]"
 
 # 基本资料
-
+information_nike_name = By.CSS_SELECTOR, ".am-list-extra"   # 1
+information_phone = By.CSS_SELECTOR, ".am-list-line"   # 2
+information_email = By.CSS_SELECTOR, ".am-list-extra"   # 3
+information_old_name = By.CSS_SELECTOR, '[placeholder=""]'
+information_input_name = By.CSS_SELECTOR, '[name="nickName"]'
+information_confirm_btn = By.CSS_SELECTOR, ".am-button.am-button-primary"
+information_input_password = By.CSS_SELECTOR, '[type="password"]'
+information_input_new_phone = By.CSS_SELECTOR, '[type="tel"]'
+information_input_code = By.CSS_SELECTOR, '[name="smsCode"]'
+information_get_code = By.CSS_SELECTOR, '[data-name="smsRemainSecond"]'
+information_input_email = By.CSS_SELECTOR, '[name="email"]'
 
 # 设置页面
 set_logout = By.CSS_SELECTOR, ".am-button"

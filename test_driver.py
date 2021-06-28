@@ -29,7 +29,7 @@ driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
 driver.implicitly_wait(8)
 driver.find_element_by_id("io.cordova.hellocordovauat:id/cuttime").click()
 # time.sleep(3)
-driver.find_element_by_android_uiautomator('text("%s")' % "钱包").click()
+driver.find_element_by_android_uiautomator('text("%s")' % "我的").click()
 if len(driver.contexts) > 1:
     driver.switch_to.context(driver.contexts[-1])
     print("切换成功")
@@ -110,9 +110,12 @@ if len(driver.contexts) > 1:
     # time.sleep(1)
     # driver.find_element_by_css_selector(".am-button.am-button-primary")
 
-    #综合视频
-    driver.find_element_by_xpath(".//*[@id='app-root']/div/div[4]/div[2]").click()
-
+    # 基本资料
+    driver.find_element_by_xpath(".//*[@id='app-root']/div/div[2]/div/div[2]/div[3]").click()
+    time.sleep(1)
+    e = driver.find_elements_by_css_selector(".am-list-line")
+    print(len(e))
+    e[1].click()
 
 else:
     print("切换失败")
