@@ -7,7 +7,7 @@ def read_txt(filename):
             arrs.append(tuple(i.strip().split(",")))
         return arrs
 
-def read_line(filename, start=0, end=10):
+def read_line(filename, start=0, end=100):
     with open(os.getcwd()+os.sep+"data"+os.sep+filename, "r", encoding="utf-8")as f:
         arrs = []
         for i in f.readlines()[start:end]:
@@ -16,9 +16,9 @@ def read_line(filename, start=0, end=10):
 
 
 def read_txt_1():
-    with open("../data/wallet.txt", "r", encoding="utf-8")as f:
+    with open("../data/information.txt", "r", encoding="utf-8")as f:
         arrs = []
-        for i in f.readlines()[4:]:
+        for i in f.readlines()[10:]:
             arrs.append(tuple(i.strip().split(",")))
         return arrs
 
