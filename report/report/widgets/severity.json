@@ -1,840 +1,990 @@
 [ {
-  "uid" : "ba0deecb9b16efd",
-  "name" : "验证手机登录",
+  "uid" : "c103ca14f99f51e8",
+  "name" : "正确的密码",
   "time" : {
-    "start" : 1624523802506,
-    "stop" : 1624523805452,
-    "duration" : 2946
+    "start" : 1625641805318,
+    "stop" : 1625641808194,
+    "duration" : 2876
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "683c0899771f9369",
-  "name" : "验证员工认证跳转和钱包跳转",
+  "uid" : "c235a4c51c5d6c43",
+  "name" : "错误的手机号",
   "time" : {
-    "start" : 1624523711082,
-    "stop" : 1624523742432,
-    "duration" : 31350
+    "start" : 1625641571411,
+    "stop" : 1625641575323,
+    "duration" : 3912
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d0b4244d2f8bbb73",
-  "name" : "验证密码规则",
+  "uid" : "e0b1954425f7c3a2",
+  "name" : "错误的验证码",
   "time" : {
-    "start" : 1624523613653,
-    "stop" : 1624523618084,
-    "duration" : 4431
+    "start" : 1625641663094,
+    "stop" : 1625641666702,
+    "duration" : 3608
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c5a60e6ed1638506",
-  "name" : "验证密码规则",
+  "uid" : "de6a7e353ced5c4a",
+  "name" : "十五位纯字母密码",
   "time" : {
-    "start" : 1624523657873,
-    "stop" : 1624523661250,
-    "duration" : 3377
+    "start" : 1625642149488,
+    "stop" : 1625642153837,
+    "duration" : 4349
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "258c135d33d5c220",
-  "name" : "验证密码规则",
+  "uid" : "c72ab22ef0371750",
+  "name" : "错误的邮箱",
   "time" : {
-    "start" : 1624523635697,
-    "stop" : 1624523638803,
-    "duration" : 3106
+    "start" : 1625641791305,
+    "stop" : 1625641793412,
+    "duration" : 2107
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "db7ce8579f13c89",
-  "name" : "验证注册提示",
+  "uid" : "561cbfceed94a608",
+  "name" : "纯字符密码",
   "time" : {
-    "start" : 1624524033616,
-    "stop" : 1624524037868,
-    "duration" : 4252
+    "start" : 1625641640695,
+    "stop" : 1625641643737,
+    "duration" : 3042
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "77722c62f3d30f32",
-  "name" : "验证短信验证码",
+  "uid" : "bdcd71be88d195b7",
+  "name" : "十六位密码",
   "time" : {
-    "start" : 1624524111241,
-    "stop" : 1624524113762,
-    "duration" : 2521
+    "start" : 1625641604331,
+    "stop" : 1625641608710,
+    "duration" : 4379
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "875fa61c1de9a181",
-  "name" : "验证密码规则",
+  "uid" : "ea4ee63e9ea740db",
+  "name" : "五位密码",
   "time" : {
-    "start" : 1624523596133,
-    "stop" : 1624523600395,
-    "duration" : 4262
+    "start" : 1625642141213,
+    "stop" : 1625642145256,
+    "duration" : 4043
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "89a8ddd0a04fb277",
-  "name" : "验证注册提示",
+  "uid" : "8ad76352ed5d314",
+  "name" : "未输入验证码",
   "time" : {
-    "start" : 1624524025344,
-    "stop" : 1624524029331,
-    "duration" : 3987
+    "start" : 1625641631662,
+    "stop" : 1625641634484,
+    "duration" : 2822
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "215af315f2171293",
-  "name" : "验证注册提示",
+  "uid" : "e26cdc88791171ac",
+  "name" : "未输入密码",
   "time" : {
-    "start" : 1624524021357,
-    "stop" : 1624524025340,
-    "duration" : 3983
+    "start" : 1625641892183,
+    "stop" : 1625641895286,
+    "duration" : 3103
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8a67a300664460e5",
-  "name" : "验证短信验证码",
+  "uid" : "18fca45d0179120e",
+  "name" : "未注册的手机号",
   "time" : {
-    "start" : 1624524108793,
-    "stop" : 1624524111239,
-    "duration" : 2446
+    "start" : 1625641898663,
+    "stop" : 1625641902140,
+    "duration" : 3477
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "44969ba368f9bf1b",
-  "name" : "验证密码规则",
+  "uid" : "18965dd11a2dced3",
+  "name" : "未输入密码",
   "time" : {
-    "start" : 1624523575703,
-    "stop" : 1624523579436,
+    "start" : 1625641800642,
+    "stop" : 1625641802658,
+    "duration" : 2016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c85a982895d52bd4",
+  "name" : "两次密码不一致",
+  "time" : {
+    "start" : 1625641557031,
+    "stop" : 1625641560764,
     "duration" : 3733
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "71cd67f77804c2d2",
-  "name" : "验证密码规则",
+  "uid" : "4172f92fedadc3ff",
+  "name" : "十六位密码",
   "time" : {
-    "start" : 1624523651321,
-    "stop" : 1624523654510,
-    "duration" : 3189
+    "start" : 1625641656433,
+    "stop" : 1625641659725,
+    "duration" : 3292
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e37c9d21d99e3e50",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523579440,
-    "stop" : 1624523583583,
-    "duration" : 4143
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "928faefc365f1612",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523521438,
-    "stop" : 1624523525210,
-    "duration" : 3772
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1e38aa1b33018365",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523618088,
-    "stop" : 1624523622753,
-    "duration" : 4665
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a2541ccd832a45d",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523622756,
-    "stop" : 1624523632936,
-    "duration" : 10180
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a1e56cbf64e17c94",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523592075,
-    "stop" : 1624523596130,
-    "duration" : 4055
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b89420a6277a2d8",
-  "name" : "验证银行卡有效性",
-  "time" : {
-    "start" : 1624524220875,
-    "stop" : 1624524223713,
-    "duration" : 2838
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d552c6adac9fcf3f",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523811619,
-    "stop" : 1624523814887,
-    "duration" : 3268
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d6d61dfcf722778",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624523884577,
-    "stop" : 1624524009480,
-    "duration" : 124903
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "18b3880ff2b36031",
-  "name" : "验证密码登录",
-  "time" : {
-    "start" : 1624523789590,
-    "stop" : 1624523792931,
-    "duration" : 3341
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8641cae7e2c83668",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523560404,
-    "stop" : 1624523564693,
-    "duration" : 4289
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bbbe622ad2d24515",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524009484,
-    "stop" : 1624524013383,
-    "duration" : 3899
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad0ffc6a61b49541",
-  "name" : "验证首页提示",
-  "time" : {
-    "start" : 1624523703048,
-    "stop" : 1624523711078,
-    "duration" : 8030
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40bce86a85c3e803",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523514129,
-    "stop" : 1624523517649,
-    "duration" : 3520
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c51e47f210eb5eae",
-  "name" : "跳转法律声明",
-  "time" : {
-    "start" : 1624524103243,
-    "stop" : 1624524105371,
-    "duration" : 2128
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f431a0cd833180a8",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524017387,
-    "stop" : 1624524021354,
-    "duration" : 3967
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f1425144a70be70",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523540052,
-    "stop" : 1624523543794,
-    "duration" : 3742
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "55c5c8b6b3c23e4a",
-  "name" : "跳转账号注销",
-  "time" : {
-    "start" : 1624524105373,
-    "stop" : 1624524108790,
-    "duration" : 3417
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e21fa39fea62b17",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524041789,
-    "stop" : 1624524046017,
-    "duration" : 4228
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "675196c7f0882485",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523556510,
-    "stop" : 1624523560400,
-    "duration" : 3890
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5f4f2e0b7358207f",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523645033,
-    "stop" : 1624523648114,
-    "duration" : 3081
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ab9982544b27186",
-  "name" : "验证手机验证码",
-  "time" : {
-    "start" : 1624524230094,
-    "stop" : 1624524232320,
-    "duration" : 2226
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5d653a5d202121bd",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523552364,
-    "stop" : 1624523556506,
-    "duration" : 4142
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ba231b20f63803ef",
-  "name" : "验证密码登录",
-  "time" : {
-    "start" : 1624523772922,
-    "stop" : 1624523776331,
-    "duration" : 3409
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1de8003884032080",
-  "name" : "验证银行卡有效性",
-  "time" : {
-    "start" : 1624524218555,
-    "stop" : 1624524220871,
-    "duration" : 2316
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d6ff4103ff251305",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523668279,
-    "stop" : 1624523673426,
-    "duration" : 5147
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d68052013f16e5e4",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523510728,
-    "stop" : 1624523514125,
-    "duration" : 3397
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed4758485023cf7f",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523587817,
-    "stop" : 1624523592072,
-    "duration" : 4255
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e805b3594d252d61",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523604737,
-    "stop" : 1624523609137,
-    "duration" : 4400
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a7150f5eb757b60f",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523528996,
-    "stop" : 1624523532743,
-    "duration" : 3747
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75e418c512a20fbd",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523641815,
-    "stop" : 1624523645029,
-    "duration" : 3214
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "14521ba6c4807820",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523805455,
-    "stop" : 1624523808617,
-    "duration" : 3162
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19d5beabf3306df6",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523664740,
-    "stop" : 1624523668275,
-    "duration" : 3535
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "12986cb0dd8184a2",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524013387,
-    "stop" : 1624524017383,
-    "duration" : 3996
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "87c7b0880d518095",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523808620,
-    "stop" : 1624523811615,
-    "duration" : 2995
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c5b7690fb5050ab0",
-  "name" : "跳转协议",
-  "time" : {
-    "start" : 1624524155735,
-    "stop" : 1624524159759,
-    "duration" : 4024
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "719c50c1a0c35b91",
-  "name" : "验证手机验证码",
-  "time" : {
-    "start" : 1624524227997,
-    "stop" : 1624524230091,
-    "duration" : 2094
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1c4d65c046af73c9",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523564696,
-    "stop" : 1624523571717,
-    "duration" : 7021
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f30a129fb8708759",
-  "name" : "验证密码登录",
-  "time" : {
-    "start" : 1624523792935,
-    "stop" : 1624523802503,
-    "duration" : 9568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fbf7dfc78f85249",
-  "name" : "验证持卡人姓名",
-  "time" : {
-    "start" : 1624524196107,
-    "stop" : 1624524218550,
-    "duration" : 22443
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "182fd71637ac4a45",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523654514,
-    "stop" : 1624523657869,
-    "duration" : 3355
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "921ab780fa1ead65",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523814891,
-    "stop" : 1624523818066,
-    "duration" : 3175
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e9b8a670e0a09aea",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524054431,
-    "stop" : 1624524059214,
-    "duration" : 4783
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9cdee14e96de242a",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524050369,
-    "stop" : 1624524054421,
-    "duration" : 4052
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "70cc5d3b1861fef8",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523638806,
-    "stop" : 1624523641812,
-    "duration" : 3006
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3c5b80d1c07ad4a6",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523648118,
-    "stop" : 1624523651317,
-    "duration" : 3199
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "153a68b8eca12305",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523632940,
-    "stop" : 1624523635694,
-    "duration" : 2754
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "38eb0a46c6f4dc5a",
-  "name" : "验证注册提示",
-  "time" : {
-    "start" : 1624524059218,
-    "stop" : 1624524065303,
-    "duration" : 6085
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8595140ce2fc747d",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523571721,
-    "stop" : 1624523575700,
-    "duration" : 3979
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8330fd766a9968a6",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523830491,
-    "stop" : 1624523843977,
-    "duration" : 13486
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b5ccf72adb88ec5b",
-  "name" : "验证密码登录",
-  "time" : {
-    "start" : 1624523779214,
-    "stop" : 1624523782388,
-    "duration" : 3174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8361eef5d0cb4350",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523843982,
-    "stop" : 1624523853597,
-    "duration" : 9615
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2eb8dfdb97295681",
-  "name" : "跳转实名认证",
-  "time" : {
-    "start" : 1624524147028,
-    "stop" : 1624524155731,
-    "duration" : 8703
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1f99ca3bd3e8d7bf",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523525214,
-    "stop" : 1624523528992,
-    "duration" : 3778
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "891aa2d875e324be",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523609141,
-    "stop" : 1624523613649,
-    "duration" : 4508
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4d46dfd784c2b0cd",
-  "name" : "验证手机登录",
-  "time" : {
-    "start" : 1624523818069,
-    "stop" : 1624523830484,
-    "duration" : 12415
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ac4a398745e3cf90",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523583587,
-    "stop" : 1624523587813,
-    "duration" : 4226
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ee7d6beab4b18f",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523600399,
-    "stop" : 1624523604733,
-    "duration" : 4334
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5ed939365ed7b804",
-  "name" : "验证密码登录",
-  "time" : {
-    "start" : 1624523782392,
-    "stop" : 1624523786109,
-    "duration" : 3717
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dadbd22214856519",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523661255,
-    "stop" : 1624523664736,
-    "duration" : 3481
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "451f181f00931ffb",
-  "name" : "验证密码规则",
-  "time" : {
-    "start" : 1624523536424,
-    "stop" : 1624523540048,
-    "duration" : 3624
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9c67648e07a8774a",
+  "uid" : "78b29b7bd65454d9",
   "name" : "跳转保互通简介",
   "time" : {
-    "start" : 1624524100078,
-    "stop" : 1624524103241,
-    "duration" : 3163
+    "start" : 1625642216886,
+    "stop" : 1625642220193,
+    "duration" : 3307
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3058eca135dcdfd7",
-  "name" : "验证密码规则",
+  "uid" : "b23775302691adf",
+  "name" : "正确的邮箱",
   "time" : {
-    "start" : 1624523543798,
-    "stop" : 1624523548108,
-    "duration" : 4310
+    "start" : 1625641793416,
+    "stop" : 1625641800637,
+    "duration" : 7221
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "637255c2aa5ac8e9",
-  "name" : "验证注册提示",
+  "uid" : "45a1a640679bf7f8",
+  "name" : "纯字符密码",
   "time" : {
-    "start" : 1624524029334,
-    "stop" : 1624524033612,
-    "duration" : 4278
+    "start" : 1625642153842,
+    "stop" : 1625642157988,
+    "duration" : 4146
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4b91d43f39d306c4",
-  "name" : "验证银行卡有效性",
+  "uid" : "563262f355096b80",
+  "name" : "错误的验证码",
   "time" : {
-    "start" : 1624524223715,
-    "stop" : 1624524227992,
-    "duration" : 4277
+    "start" : 1625641617388,
+    "stop" : 1625641621613,
+    "duration" : 4225
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5cf8caf108e7f4ac",
-  "name" : "验证注册提示",
+  "uid" : "5aa06f11d8c39832",
+  "name" : "五位数密码",
   "time" : {
-    "start" : 1624524046022,
-    "stop" : 1624524050365,
-    "duration" : 4343
+    "start" : 1625641649931,
+    "stop" : 1625641653038,
+    "duration" : 3107
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5c507e6076e95fcb",
-  "name" : "验证密码规则",
+  "uid" : "69ddfcc04fbcd1fa",
+  "name" : "纯数字密码",
   "time" : {
-    "start" : 1624523532748,
-    "stop" : 1624523536421,
-    "duration" : 3673
+    "start" : 1625641634487,
+    "stop" : 1625641637611,
+    "duration" : 3124
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "43ee6a86267dd710",
-  "name" : "验证密码登录",
+  "uid" : "37d686b947282e2e",
+  "name" : "十六位密码",
   "time" : {
-    "start" : 1624523786113,
-    "stop" : 1624523789587,
-    "duration" : 3474
+    "start" : 1625641612999,
+    "stop" : 1625641617384,
+    "duration" : 4385
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c0366e10218004ba",
-  "name" : "验证注册提示",
+  "uid" : "e54ffd90051caff6",
+  "name" : "纯字母密码",
   "time" : {
-    "start" : 1624524037872,
-    "stop" : 1624524041785,
-    "duration" : 3913
+    "start" : 1625641526061,
+    "stop" : 1625641529807,
+    "duration" : 3746
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "64d18f1aea487e4f",
-  "name" : "验证密码规则",
+  "uid" : "5b92ccc2206f0df4",
+  "name" : "错误的手机号",
   "time" : {
-    "start" : 1624523548111,
-    "stop" : 1624523552361,
-    "duration" : 4250
+    "start" : 1625641917237,
+    "stop" : 1625641920099,
+    "duration" : 2862
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cb3a471c5dd30aa",
-  "name" : "验证密码规则",
+  "uid" : "827d9f38b993e274",
+  "name" : "未输入验证码",
   "time" : {
-    "start" : 1624523517653,
-    "stop" : 1624523521435,
-    "duration" : 3782
+    "start" : 1625641811903,
+    "stop" : 1625641815854,
+    "duration" : 3951
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bcaea366a5b61371",
-  "name" : "验证密码登录",
+  "uid" : "da82f653b75f28c5",
+  "name" : "未输入验证码",
   "time" : {
-    "start" : 1624523776334,
-    "stop" : 1624523779211,
-    "duration" : 2877
+    "start" : 1625642345298,
+    "stop" : 1625642347420,
+    "duration" : 2122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e62522d4366b8d5",
+  "name" : "已存在的手机号",
+  "time" : {
+    "start" : 1625641824124,
+    "stop" : 1625641828313,
+    "duration" : 4189
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f4631c4c12aedec",
+  "name" : "五位密码",
+  "time" : {
+    "start" : 1625642136976,
+    "stop" : 1625642141205,
+    "duration" : 4229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "240b8f474aae1305",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641596015,
+    "stop" : 1625641600103,
+    "duration" : 4088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "63208a31438bcdb2",
+  "name" : "纯数字密码",
+  "time" : {
+    "start" : 1625642128925,
+    "stop" : 1625642132940,
+    "duration" : 4015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12e5e08bee058d0f",
+  "name" : "验证持卡人",
+  "time" : {
+    "start" : 1625642313479,
+    "stop" : 1625642336024,
+    "duration" : 22545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82b8f1c82ae16b03",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641552794,
+    "stop" : 1625641557027,
+    "duration" : 4233
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0066b9672d30e23",
+  "name" : "正确登录",
+  "time" : {
+    "start" : 1625641907645,
+    "stop" : 1625641917233,
+    "duration" : 9588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed67a91fe135a8a",
+  "name" : "未勾选协议",
+  "time" : {
+    "start" : 1625642000380,
+    "stop" : 1625642124746,
+    "duration" : 124366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eed8e69f6678e975",
+  "name" : "未输入手机号",
+  "time" : {
+    "start" : 1625641808198,
+    "stop" : 1625641811900,
+    "duration" : 3702
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9e638680b479d00",
+  "name" : "修改成功",
+  "time" : {
+    "start" : 1625641621616,
+    "stop" : 1625641631658,
+    "duration" : 10042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7225cf56133c9fd1",
+  "name" : "未输入银行卡号",
+  "time" : {
+    "start" : 1625642336028,
+    "stop" : 1625642338394,
+    "duration" : 2366
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77ed98735d58ab3a",
+  "name" : "密码错误次数超限",
+  "time" : {
+    "start" : 1625641902143,
+    "stop" : 1625641907614,
+    "duration" : 5471
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "25a19d4293194a46",
+  "name" : "未输入原密码",
+  "time" : {
+    "start" : 1625641511912,
+    "stop" : 1625641515262,
+    "duration" : 3350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e9b9fa2e91c8608",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641653042,
+    "stop" : 1625641656429,
+    "duration" : 3387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "196abbb8ae040633",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641533679,
+    "stop" : 1625641537277,
+    "duration" : 3598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c46d015ec22e8b85",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641544513,
+    "stop" : 1625641548737,
+    "duration" : 4224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4723ba13d69e53d1",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641820070,
+    "stop" : 1625641824121,
+    "duration" : 4051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6664f39a7dfd719",
+  "name" : "纯字符密码",
+  "time" : {
+    "start" : 1625641529811,
+    "stop" : 1625641533676,
+    "duration" : 3865
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be0e289b1a7eb05e",
+  "name" : "错误的验证码",
+  "time" : {
+    "start" : 1625642170722,
+    "stop" : 1625642174844,
+    "duration" : 4122
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b26955cf4e5651dd",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641889430,
+    "stop" : 1625641892179,
+    "duration" : 2749
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32b6dcd4a5023256",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625642124750,
+    "stop" : 1625642128920,
+    "duration" : 4170
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eff41652f6f8a158",
+  "name" : "已注册的手机号",
+  "time" : {
+    "start" : 1625642174848,
+    "stop" : 1625642180811,
+    "duration" : 5963
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4eb7ae6d48b46c4e",
+  "name" : "纯字母密码",
+  "time" : {
+    "start" : 1625642132944,
+    "stop" : 1625642136972,
+    "duration" : 4028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caf1dcf3fece47b3",
+  "name" : "未输入验证码",
+  "time" : {
+    "start" : 1625641575327,
+    "stop" : 1625641579466,
+    "duration" : 4139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d6f258a9c8131c3",
+  "name" : "成功修改",
+  "time" : {
+    "start" : 1625641832472,
+    "stop" : 1625641854989,
+    "duration" : 22517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "257b4413671a5e09",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641934223,
+    "stop" : 1625641946633,
+    "duration" : 12410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce8758c1cf33e999",
+  "name" : "纯字符密码",
+  "time" : {
+    "start" : 1625641587828,
+    "stop" : 1625641591951,
+    "duration" : 4123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7464540a8acc2c26",
+  "name" : "未输入验证码",
+  "time" : {
+    "start" : 1625642166763,
+    "stop" : 1625642170719,
+    "duration" : 3956
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe1754af950f2694",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641537287,
+    "stop" : 1625641540872,
+    "duration" : 3585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c10ad6b4329e7aba",
+  "name" : "错误的银行卡号",
+  "time" : {
+    "start" : 1625642338397,
+    "stop" : 1625642341041,
+    "duration" : 2644
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43e8c806fa61acf4",
+  "name" : "修改成功",
+  "time" : {
+    "start" : 1625641666706,
+    "stop" : 1625641671921,
+    "duration" : 5215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15e59662e8bc5a41",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625642157992,
+    "stop" : 1625642162466,
+    "duration" : 4474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8fa9d55a548ea0b",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641548741,
+    "stop" : 1625641552790,
+    "duration" : 4049
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20711e2c81f0ecc5",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625642162470,
+    "stop" : 1625642166758,
+    "duration" : 4288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cce151066f470b4",
+  "name" : "未注册的手机号",
+  "time" : {
+    "start" : 1625641946638,
+    "stop" : 1625641960012,
+    "duration" : 13374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e24e1a62f87e8c3b",
+  "name" : "未输入昵称",
+  "time" : {
+    "start" : 1625641781410,
+    "stop" : 1625641783481,
+    "duration" : 2071
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "995e54e5d16d7f52",
+  "name" : "错误的验证码",
+  "time" : {
+    "start" : 1625641926209,
+    "stop" : 1625641930741,
+    "duration" : 4532
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d03cd3e068fd04f",
+  "name" : "纯字母密码",
+  "time" : {
+    "start" : 1625641583729,
+    "stop" : 1625641587825,
+    "duration" : 4096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fdd6b261fb109d3a",
+  "name" : "正确的密码",
+  "time" : {
+    "start" : 1625641564473,
+    "stop" : 1625641571407,
+    "duration" : 6934
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ea9f7e1bbd01866",
+  "name" : "正确的登录",
+  "time" : {
+    "start" : 1625641960017,
+    "stop" : 1625641969660,
+    "duration" : 9643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7698a57f9cbbd47",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641920103,
+    "stop" : 1625641923145,
+    "duration" : 3042
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f725a1b12ba9ef9",
+  "name" : "正确的昵称",
+  "time" : {
+    "start" : 1625641783484,
+    "stop" : 1625641789210,
+    "duration" : 5726
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2dc193fea6df7fe",
+  "name" : "用户未登录",
+  "time" : {
+    "start" : 1625641702504,
+    "stop" : 1625641710542,
+    "duration" : 8038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a21c972227f6481",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641600107,
+    "stop" : 1625641604327,
+    "duration" : 4220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ab75c1f25e26ebe",
+  "name" : "跳转法律声明",
+  "time" : {
+    "start" : 1625642220196,
+    "stop" : 1625642222340,
+    "duration" : 2144
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6131b24708724351",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641591955,
+    "stop" : 1625641596011,
+    "duration" : 4056
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e06088948d588c1",
+  "name" : "未输入邮箱",
+  "time" : {
+    "start" : 1625641789216,
+    "stop" : 1625641791302,
+    "duration" : 2086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38f0f24fc03664c9",
+  "name" : "注销错误的验证码",
+  "time" : {
+    "start" : 1625642228176,
+    "stop" : 1625642230710,
+    "duration" : 2534
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3a6d7c54f735bf9",
+  "name" : "跳转综合视频协议",
+  "time" : {
+    "start" : 1625642272755,
+    "stop" : 1625642276753,
+    "duration" : 3998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3932407b6344c747",
+  "name" : "注销未输入验证码",
+  "time" : {
+    "start" : 1625642225788,
+    "stop" : 1625642228172,
+    "duration" : 2384
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "793a9f303b290661",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641659728,
+    "stop" : 1625641663091,
+    "duration" : 3363
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf488a592c02e1ac",
+  "name" : "错误的密码",
+  "time" : {
+    "start" : 1625641802662,
+    "stop" : 1625641805313,
+    "duration" : 2651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c80e95c135e99a71",
+  "name" : "跳转员工认证",
+  "time" : {
+    "start" : 1625642263835,
+    "stop" : 1625642272752,
+    "duration" : 8917
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24b5c1e6de3205b6",
+  "name" : "错误的验证码",
+  "time" : {
+    "start" : 1625641828317,
+    "stop" : 1625641832469,
+    "duration" : 4152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "297d53bb7a54cb96",
+  "name" : "原密码错误",
+  "time" : {
+    "start" : 1625641518723,
+    "stop" : 1625641522337,
+    "duration" : 3614
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac54c8c4e0d67404",
+  "name" : "未输入确认密码",
+  "time" : {
+    "start" : 1625641515266,
+    "stop" : 1625641518719,
+    "duration" : 3453
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19f71bf57b001de5",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641643740,
+    "stop" : 1625641646851,
+    "duration" : 3111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca09bdde84d70bb1",
+  "name" : "错误的密码",
+  "time" : {
+    "start" : 1625641895290,
+    "stop" : 1625641898654,
+    "duration" : 3364
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a86892e1c1349ee",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641540876,
+    "stop" : 1625641544509,
+    "duration" : 3633
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99fe93a4451ae389",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641886058,
+    "stop" : 1625641889426,
+    "duration" : 3368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e31db7d53cd41e2c",
+  "name" : "纯数字密码",
+  "time" : {
+    "start" : 1625641522341,
+    "stop" : 1625641526056,
+    "duration" : 3715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5981c5f507081db5",
+  "name" : "纯字母密码",
+  "time" : {
+    "start" : 1625641637615,
+    "stop" : 1625641640692,
+    "duration" : 3077
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7e30b78a91e4cd6",
+  "name" : "未输入验证码",
+  "time" : {
+    "start" : 1625641923148,
+    "stop" : 1625641926205,
+    "duration" : 3057
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6855427e0d4cf9f5",
+  "name" : "十六位密码",
+  "time" : {
+    "start" : 1625641608713,
+    "stop" : 1625641612996,
+    "duration" : 4283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f1777796e1e909c",
+  "name" : "十五位纯数字密码",
+  "time" : {
+    "start" : 1625642145260,
+    "stop" : 1625642149484,
+    "duration" : 4224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5ac3f769298cde6",
+  "name" : "正确的银行卡号",
+  "time" : {
+    "start" : 1625642341045,
+    "stop" : 1625642345289,
+    "duration" : 4244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45f6a9b9724b3686",
+  "name" : "错误的手机号",
+  "time" : {
+    "start" : 1625641815858,
+    "stop" : 1625641820067,
+    "duration" : 4209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2b7c0d0fa0bdc59",
+  "name" : "用户已登录",
+  "time" : {
+    "start" : 1625641710548,
+    "stop" : 1625641742159,
+    "duration" : 31611
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a7902f9ecfb0438",
+  "name" : "跳转账号注销",
+  "time" : {
+    "start" : 1625642222343,
+    "stop" : 1625642225785,
+    "duration" : 3442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8df135cde2d75b5e",
+  "name" : "新密码与原密码一致",
+  "time" : {
+    "start" : 1625641560767,
+    "stop" : 1625641564470,
+    "duration" : 3703
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e1cb1226a1d2e8",
+  "name" : "五位数密码",
+  "time" : {
+    "start" : 1625641646855,
+    "stop" : 1625641649927,
+    "duration" : 3072
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "547033530f18e3cc",
+  "name" : "错误的验证码",
+  "time" : {
+    "start" : 1625642347423,
+    "stop" : 1625642349525,
+    "duration" : 2102
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a337ee4a3f58076e",
+  "name" : "未注册的手机号",
+  "time" : {
+    "start" : 1625641930771,
+    "stop" : 1625641934218,
+    "duration" : 3447
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4a3f80fcd89b286",
+  "name" : "纯数字密码",
+  "time" : {
+    "start" : 1625641579470,
+    "stop" : 1625641583725,
+    "duration" : 4255
   },
   "status" : "passed",
   "severity" : "normal"

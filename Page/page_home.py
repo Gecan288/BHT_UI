@@ -1,13 +1,13 @@
 import Page, allure, time
 from base.base import Base
 
+
 class PageHome(Base):
     @allure.step("跳过开屏广告")
     def page_jump_advertisement(self):
         self.base_click(Page.advertisement)
         time.sleep(5)
         self.base_switch_webview()
-
 
     @allure.step("点击我的")
     def page_click_me(self):

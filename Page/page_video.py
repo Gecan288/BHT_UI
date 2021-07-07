@@ -1,6 +1,7 @@
 import Page, allure, time
 from base.base import Base
 
+
 class PageVideo(Base):
 
     @allure.step("跳过开屏广告")
@@ -46,7 +47,7 @@ class PageVideo(Base):
         time.sleep(2)
         return self.base_get_text(Page.page_title)
 
-    @allure.step(("返回上一页"))
+    @allure.step("返回上一页")
     def page_back(self):
         self.base_back()
 

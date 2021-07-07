@@ -57,4 +57,3 @@ class Base():
 
     def base_get_attribute(self, loc, value):
         return self.base_find_element(loc).get_attribute(value)
-

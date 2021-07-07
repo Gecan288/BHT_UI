@@ -2,6 +2,7 @@ import Page, allure
 from base.base import Base
 from appium.webdriver.common.touch_action import TouchAction
 
+
 class PageRegister(Base):
 
     @allure.step("跳过开屏广告")
@@ -50,7 +51,8 @@ class PageRegister(Base):
         self.base_getImage()
         self.base_switch_webview()
 
-    def page_write_to_report(self):
+    @staticmethod
+    def page_write_to_report():
         with open("./Image/faild.png", "rb")as f:
             allure.attach(f.read(), "失败原因见截图:", allure.attachment_type.PNG)
 

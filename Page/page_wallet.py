@@ -7,14 +7,11 @@ class PageWallet(Base):
     @allure.step("跳过开屏广告")
     def page_jump_advertisement(self):
         self.base_click(Page.advertisement)
-        # time.sleep(2)
-
 
     @allure.step("点击导航栏钱包")
     def page_click_wallet(self):
         self.base_click(Page.navigation_wallet)
         self.base_switch_webview()
-
 
     @allure.step("登录账号")
     def page_login(self, username, password):

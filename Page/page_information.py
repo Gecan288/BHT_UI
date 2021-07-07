@@ -1,6 +1,7 @@
 import Page, allure, time
 from base.base import Base
 
+
 class PageInformation(Base):
 
     @allure.step("跳过开屏广告")
@@ -35,6 +36,7 @@ class PageInformation(Base):
 
     @allure.step("获取新昵称")
     def page_get_new_name(self):
+        time.sleep(1)
         return self.base_get_texts(Page.information_nike_name, 1)
 
     @allure.step("获取原属性值")
@@ -47,7 +49,6 @@ class PageInformation(Base):
 
     @allure.step("获取toast")
     def page_get_toast(self):
-        time.sleep(0.1)
         for i in range(10):
             if "加载中" in self.base_get_text(Page.home_toast, timeout=2, poll=0.1):
                 pass
@@ -57,6 +58,7 @@ class PageInformation(Base):
     @allure.step("点击常用邮箱")
     def page_click_email(self):
         self.base_clicks(Page.information_email, 3)
+        time.sleep(1)
 
     @allure.step("输入新邮箱")
     def page_input_new_email(self, email):
@@ -64,11 +66,13 @@ class PageInformation(Base):
 
     @allure.step("获取新邮箱")
     def page_get_new_email(self):
+        time.sleep(1)
         return self.base_get_texts(Page.information_email, 3)
 
     @allure.step("点击手机号")
     def page_click_phone(self):
         self.base_clicks(Page.information_phone, 2)
+        time.sleep(1)
 
     @allure.step("输入密码")
     def page_input_password(self, password="qwer1234"):
@@ -76,6 +80,7 @@ class PageInformation(Base):
 
     @allure.step("输入新手机号")
     def page_input_new_phone(self, phone="13439200080"):
+        time.sleep(1)
         self.base_input(Page.information_input_new_phone, phone)
 
     @allure.step("输入验证码")
