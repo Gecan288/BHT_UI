@@ -21,39 +21,31 @@ class TestInformation:
     @allure.story("修改昵称")
     @allure.title("{case_title}")
     @allure.step("开始执行用例")
-    @pytest.mark.parametrize("case_title, nike_name, toast, alternate", read_line("information.txt", end=2))
-    def test_change_nick_name(self, case_title, nike_name, toast, alternate):
+    @pytest.mark.parametrize("case_title, nick_name, toast, alternate", read_line("information.txt", end=2))
+    def test_change_nick_name(self, case_title, nick_name, toast, alternate):
         if toast:
             try:
-                self.information.page_input_new_name(nike_name)
+                self.information.page_input_new_name(nick_name)
                 self.information.page_click_confirm_btn()
                 assert toast in self.information.page_get_toast()
             except Exception:
                 self.information.page_screenshot_and_write()
                 raise
         else:
-            if nike_name in self.information.page_get_old_value():
-                try:
-                    self.information.page_input_new_name(alternate)
-                    self.information.page_click_confirm_btn()
-                    time.sleep(1)
-                    assert alternate in self.information.page_get_new_name()
-                except Exception:
-                    self.information.page_screenshot_and_write()
-                    raise
-                finally:
-                    self.information.page_click_email()
+            if nick_name in self.information.page_get_old_value():
+                nick_name = alternate
             else:
-                try:
-                    self.information.page_input_new_name(nike_name)
-                    self.information.page_click_confirm_btn()
-                    time.sleep(1)
-                    assert nike_name in self.information.page_get_new_name()
-                except Exception:
-                    self.information.page_screenshot_and_write()
-                    raise
-                finally:
-                    self.information.page_click_email()
+                pass
+            try:
+                self.information.page_input_new_name(nick_name)
+                self.information.page_click_confirm_btn()
+                time.sleep(1)
+                assert nick_name in self.information.page_get_new_name()
+            except Exception:
+                self.information.page_screenshot_and_write()
+                raise
+            finally:
+                self.information.page_click_email()
 
     @allure.story("修改邮箱")
     @allure.title("{case_title}")
@@ -70,29 +62,20 @@ class TestInformation:
                 raise
         else:
             if email in self.information.page_get_old_value():
-                try:
-                    self.information.page_input_new_email(alternate)
-                    time.sleep(1)
-                    self.information.page_click_confirm_btn()
-                    time.sleep(1)
-                    assert alternate in self.information.page_get_new_email()
-                except Exception:
-                    self.information.page_screenshot_and_write()
-                    raise
-                finally:
-                    self.information.page_click_phone()
+                email = alternate
             else:
-                try:
-                    self.information.page_input_new_email(email)
-                    time.sleep(1)
-                    self.information.page_click_confirm_btn()
-                    time.sleep(1)
-                    assert email in self.information.page_get_new_email()
-                except Exception:
-                    self.information.page_screenshot_and_write()
-                    raise
-                finally:
-                    self.information.page_click_phone()
+                pass
+            try:
+                self.information.page_input_new_email(email)
+                time.sleep(1)
+                self.information.page_click_confirm_btn()
+                time.sleep(1)
+                assert email in self.information.page_get_new_email()
+            except Exception:
+                self.information.page_screenshot_and_write()
+                raise
+            finally:
+                self.information.page_click_phone()
 
     @allure.story("修改手机号")
     @allure.title("{case_title}")
@@ -107,6 +90,8 @@ class TestInformation:
             except Exception:
                 self.information.page_screenshot_and_write()
                 raise
+            finally:
+                time.sleep(1)
         else:
             try:
                 self.information.page_input_password(pwd)
@@ -115,6 +100,8 @@ class TestInformation:
             except Exception:
                 self.information.page_screenshot_and_write()
                 raise
+            finally:
+                time.sleep(1)
 
     @allure.story("修改手机号")
     @allure.title("{case_title}")
