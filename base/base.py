@@ -2,9 +2,10 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from time import sleep
 
-class Base():
+
+class Base:
     def __init__(self, driver):
-        self.driver=driver
+        self.driver = driver
 
     def base_find_element(self, loc, timeout=30, poll=0.5):
         sleep(0.3)
@@ -26,11 +27,10 @@ class Base():
         el.send_keys(text)
 
     def base_getImage(self):
-        Path = "./Image/faild.png"
-        self.driver.get_screenshot_as_file(Path)
+        self.driver.get_screenshot_as_file("./Image/faild.png")
 
     def base_get_toast(self, message):
-        loc =(By.XPATH, "//*[contains(@text, '%s')]" %message)
+        loc = (By.XPATH, "//*[contains(@text, '%s')]" % message)
         return self.base_find_element(loc, timeout=5, poll=0.1).text
 
     def base_get_text(self, loc, timeout=30, poll=0.5):

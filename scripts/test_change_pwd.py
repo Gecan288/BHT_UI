@@ -33,8 +33,7 @@ class TestChangePdw:
                 self.change.page_click_change()
                 assert expect_toast in self.change.page_get_toast()
             except Exception:
-                self.change.page_getImage()
-                self.change.page_write_to_report()
+                self.change.page_screenshot_and_write()
                 raise
         else:
             try:
@@ -45,8 +44,7 @@ class TestChangePdw:
                 time.sleep(3)
                 assert "登录" in self.change.page_get_page_title()
             except Exception:
-                self.change.page_getImage()
-                self.change.page_write_to_report()
+                self.change.page_screenshot_and_write()
                 raise
             finally:
                 self.change.page_click_forget_password()
@@ -65,8 +63,7 @@ class TestChangePdw:
                     self.change.page_click_change()
                     assert expect_toast in self.change.page_get_toast()
                 except Exception:
-                    self.change.page_getImage()
-                    self.change.page_write_to_report()
+                    self.change.page_screenshot_and_write()
                     raise
             else:
                 try:
@@ -76,8 +73,7 @@ class TestChangePdw:
                     self.change.page_click_change()
                     assert "登录" in self.change.page_get_page_title()
                 except Exception:
-                    self.change.page_getImage()
-                    self.change.page_write_to_report()
+                    self.change.page_screenshot_and_write()
                     raise
                 finally:
                     self.change.page_login()
@@ -93,8 +89,7 @@ class TestChangePdw:
                     self.change.page_click_change()
                     assert expect_toast in self.change.page_get_toast()
                 except Exception:
-                    self.change.page_getImage()
-                    self.change.page_write_to_report()
+                    self.change.page_screenshot_and_write()
                     raise
             else:
                 try:
@@ -105,6 +100,5 @@ class TestChangePdw:
                     assert "登录" in self.change.page_get_page_title()
                     time.sleep(2)
                 except Exception:
-                    self.change.page_getImage()
-                    self.change.page_write_to_report()
+                    self.change.page_screenshot_and_write()
                     raise

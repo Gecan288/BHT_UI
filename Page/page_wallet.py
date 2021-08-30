@@ -86,6 +86,6 @@ class PageWallet(Base):
     def page_screenshot_and_write(self):
         self.base_switch_native()
         self.base_getImage()
-        self.base_switch_native()
+        self.base_switch_webview()
         with open("./Image/faild.png", "rb")as f:
             allure.attach(f.read(), "失败原因见截图:", allure.attachment_type.PNG)

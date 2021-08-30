@@ -28,8 +28,7 @@ class TestLogin:
                 time.sleep(2)
                 assert nike_name in self.login.page_get_nikename()
             except Exception:
-                self.login.page_getImage()
-                self.login.page_write_to_report()
+                self.login.page_screenshot_and_write()
                 raise
             finally:
                 self.login.page_logout()
@@ -41,8 +40,7 @@ class TestLogin:
                 self.login.page_click_login_btn()
                 assert login_toast in self.login.page_get_error_toast()
             except Exception:
-                self.login.page_getImage()
-                self.login.page_write_to_report()
+                self.login.page_screenshot_and_write()
                 raise
 
     @allure.story('验证码登录')
@@ -57,8 +55,7 @@ class TestLogin:
                 self.login.page_click_login_btn()
                 assert login_toast in self.login.page_get_error_toast()
             except Exception:
-                self.login.page_getImage()
-                self.login.page_write_to_report()
+                self.login.page_screenshot_and_write()
                 raise
 
         elif code_toast:
@@ -67,8 +64,7 @@ class TestLogin:
                 self.login.page_get_code()
                 assert code_toast in self.login.page_get_error_toast()
             except Exception:
-                self.login.page_getImage()
-                self.login.page_write_to_report()
+                self.login.page_screenshot_and_write()
                 raise
             time.sleep(10)
         else:
@@ -80,8 +76,7 @@ class TestLogin:
                 time.sleep(2)
                 assert "止水" in self.login.page_get_nikename()
             except Exception:
-                self.login.page_getImage()
-                self.login.page_write_to_report()
+                self.login.page_screenshot_and_write()
                 raise
             finally:
                 self.login.page_logout()

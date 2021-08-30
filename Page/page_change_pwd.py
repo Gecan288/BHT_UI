@@ -64,13 +64,10 @@ class PagePwd(Base):
             else:
                 return self.base_get_text(Page.login_error_toast, timeout=2, poll=0.1)
 
-    def page_getImage(self):
+    def page_screenshot_and_write(self):
         self.base_switch_native()
         self.base_getImage()
         self.base_switch_webview()
-
-    @staticmethod
-    def page_write_to_report():
         with open("./Image/faild.png", "rb")as f:
             allure.attach(f.read(), "失败原因见截图:", allure.attachment_type.PNG)
 
